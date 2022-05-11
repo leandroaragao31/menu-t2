@@ -103,12 +103,11 @@ main{
 }
 
 .box:hover::before{
-    content: 'Have your coffe here';
+    content: 'Have your coffe here!';
     position: absolute;
     font-weight: 700;
     font-size:2vw;
-    color:#57625c;
-    background-color: azure;
+    color: whitesmoke;
     cursor:pointer;
-    opacity: 0.6;
+    opacity: 0.8
 }
